@@ -12,12 +12,14 @@ h1{
     background-color: rgb(116, 123, 146);
     flex: 5;
     color: whitesmoke;
+    padding: 20px 30px;
 }
 
 .form-container {
     background-color: rgb(192, 192, 202);
     flex: 3;
     color: white;
+    padding: 20px 30px;
 }
 
 .my-form{
@@ -28,6 +30,7 @@ h1{
 .my-form label{
     display: block;
     width: 90px;
+    /* padding: 30px; */
 }
 
 .main-icon{
@@ -40,10 +43,29 @@ h1{
     color: rgb(216, 56, 8);
 }
 
-.task{
+.task {
     display: flex;
+    border:1px solid #200101;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
-.task label{
+.task label {
     display: block;
+    margin-bottom: 5px;
+}
+
+.task .col1 {
+    flex: 4;
+}
+
+.task .col2 {
+    flex: 1;
+}
+
+.task .col3 {
+    flex: 1;
 }
